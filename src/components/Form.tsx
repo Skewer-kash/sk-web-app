@@ -1,6 +1,6 @@
-export const Form = () => {
+export default function Form() {
   return (
-    <div className="bg-white p-3.5 md:p-10 rounded-md mt-10 md:max-w-[500px]">
+    <div className="bg-white p-3.5 md:p-10 rounded-md mt-10 md:max-w-3xl lg:max-w-[500px]">
       <div>
         <h2 className="text-xl text-black font-semibold tracking-wide mb-2.5">
           Join the wait list
@@ -10,7 +10,7 @@ export const Form = () => {
         </h5>
       </div>
 
-      <form>
+      <form className="text-black/60">
         <input
           className="w-full p-3 mb-2.5 outline-none border rounded-md focus:border-gray-300 focus:border-4"
           type="text"
@@ -35,4 +35,4 @@ export const Form = () => {
       </form>
     </div>
   );
-};
+}
