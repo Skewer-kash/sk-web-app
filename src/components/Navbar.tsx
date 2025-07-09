@@ -6,14 +6,16 @@ export default function Navbar() {
       <div className="flex justify-between w-full max-w-[1280px] mx-auto ">
         <div className="flex gap-16 justify-center items-center ">
           {/* logo */}
-          <h1 className="text-3xl font-bold tracking-wider">Skewer</h1>
+          <Link href="/">
+            <h1 className="text-3xl font-bold tracking-wider">Skewer</h1>
+          </Link>
           {/* links */}
           <ul className="hidden md:flex gap-10">
             <li className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale- duration-300">
-              About
+              <Link href="/about">About</Link>
             </li>
             <li className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale- duration-300">
-              Contacts
+              <Link href="/contact">Contacts</Link>
             </li>
             <li className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale- duration-300">
               <Link href="/FAQs">FAQs</Link>

@@ -21,11 +21,11 @@ const financed = [
       "Better insight is the key to informed decisions. Businesses seek to understand operations, customers, and finances deeply. With the right tools, they unlock valuable insights for innovation and growth.",
   },
   {
-    title: "Bills & Subscription Tracking",
+    title: "Group Budgeting",
     color: "#F0F0CB",
     image: billsImage,
     content:
-      "Tracking bills and subscriptions in today's hectic world can be challenging. Centralized systems can remind you of payments, spot unnecessary expenses, and ensure you never miss deadlines.",
+      "Managing finances as a group, whether in a household or team, can be a collaborative way to set financial goals, allocate funds for expenses, and track spending and savings collectively.",
   },
   {
     title: "Expense Management",
