@@ -29,7 +29,7 @@ export default function Form() {
           placeholder="Phone Number (Optional)"
         />
 
-        <button className="bg-[#1fc1c3] w-full p-4 text-white font-semibold text-lg rounded-md tracking-wider">
+        <button className="bg-navy w-full p-4 text-white font-semibold text-lg rounded-md tracking-wider">
           Join now
         </button>
       </form>

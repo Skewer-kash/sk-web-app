@@ -6,14 +6,15 @@ import Card from "../Card";
 export default function MoreInfo() {
   return (
     <>
+      <div className="max-w-[1280px] px-5 md:px-0 md:mx-auto ">
       <div className="md:flex items-center justify-between mb-20">
         {/* animation background */}
         <Lottie animationData={animationData} />
 
         <div>
           <h2 className="text-5xl font-bold mb-5">
-            Do <span className="text-[#FD8D14]">everything</span> right in one{" "}
-            <span className="text-[#FD8D14]">app</span>
+            Do <span className="text-gold-finance">everything</span> right in one{" "}
+            <span className="text-gold-finance">app</span>
           </h2>
           <p className="text-base md:text-lg mb-5">
             Managing your financial accounts on different platforms is HARD. We
@@ -26,6 +27,7 @@ export default function MoreInfo() {
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-20 mb-20">
         <Card />
+      </div>
       </div>
     </>
   );

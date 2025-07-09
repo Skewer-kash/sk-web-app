@@ -4,8 +4,11 @@ import animationData1 from "@/assets/animations/saving-animation1.json";
 
 export default function GetStarted() {
   return (
-    <div className="text-left md:flex mt-20">
-      <div>
+    
+  <>
+<div className='bg-hero-gradient'>
+<div className="max-w-[1280px] px-5 md:px-0 md:mx-auto text-left md:flex mt-20">
+      <div className='text-white py-10'>
         <h4 className="text-5xl font-bold">Get started with these steps</h4>
         <p className="mt-5 text-base md:text-lg">
           To get the most out of Skewer, we carefully simplified the process for
@@ -55,5 +58,8 @@ export default function GetStarted() {
       {/* animation background */}
       <Lottie animationData={animationData1} />
     </div>
+
+</div>
+  </>
   );
 }

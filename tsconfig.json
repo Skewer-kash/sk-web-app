@@ -28,6 +28,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/components/Navbar.tsx"
-, "src/app/FAQs"  ],
+, "src/app/(resources)"  ],
   "exclude": ["node_modules"]
 }
