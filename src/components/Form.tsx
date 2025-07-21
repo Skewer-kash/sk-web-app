@@ -2,7 +2,7 @@ export default function Form() {
   return (
     <div className="bg-white p-3.5 md:p-10 rounded-md mt-10 md:max-w-3xl lg:max-w-[500px]">
       <div>
-        <h2 className="text-xl text-black font-semibold tracking-wide mb-2.5">
+        <h2 className="text-2xl text-black font-semibold tracking-wide mb-2.5">
           Join the wait list
         </h2>
         <h5 className="text-gray-500 tracking-normal mb-5">
@@ -29,7 +29,7 @@ export default function Form() {
           placeholder="Phone Number (Optional)"
         />
 
-        <button className="bg-[#1fc1c3] w-full p-4 text-white font-semibold text-lg rounded-md tracking-wider">
+        <button className="bg-navy w-full p-4 text-white font-semibold text-lg rounded-md tracking-wider">
           Join now
         </button>
       </form>
